@@ -29,14 +29,13 @@ The application has been deployed [here](https://blitzbomber87.github.io/Weather
 
 We can see the App Title and search bar in the header section.
 
-![searchbar](https://github.com/user-attachments/assets/9b45bbb2-23e0-4e8d-9e82-224d2fe23220)
+![searchbar](https://github.com/user-attachments/assets/8396eec4-3a0f-4156-adfa-bd1cc4403569)
 
 Next we see the curent weather information followed by the 5 day forecast.
-![weather](https://github.com/user-attachments/assets/91861efe-63d6-4ba1-813f-16377b9d4eb9)
+![weather](https://github.com/user-attachments/assets/e33754ce-b72f-4ca5-94cf-a51a4e6ab830)
 
 Lastly we can see the users search history. 
-
-![toggle](https://github.com/user-attachments/assets/b19fbebe-3aec-421e-bf69-1932e32e2c00)
+![searchhistory](https://github.com/user-attachments/assets/0c4a79ad-b298-471c-afd0-d6a3d2b9aa67)
 
 
 ## Credits
