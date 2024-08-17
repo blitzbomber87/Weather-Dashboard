@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 6: Weather Dashboard</title>
+</head>
+<body>
+    <header>
+        <h1>The Weather App</h1>
+        <form id="searchForm">
+            <input type="text" id="cityInput" placeholder="City Name" required>
+            <button type="submit">Get the forecast</button>
+        </form>
+    </header>
+    <main>
+        <section id="currentWeather">
+            <h2>Here is the current weather for...</h2>
+            <div id="current-weather-info"></div>
+        </section>
+
+        <section id="forecast">
+            <h2>5-Day Forecast</h2>
+            <div id="forecastContainer"></div>
+        </section>
+
+        <section id="searchHistory">
+            <h2>Past Searches...</h2>
+            <ul id="searchHistoryList"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>This app was developed by Eli the Coder <a href="https://github.com/blitzbomber87" target="_blank">@ Eli Ruiz</a></p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>
