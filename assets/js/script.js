@@ -28,7 +28,7 @@ searchForm.addEventListener('submit', function(event) {
 
 // Function to get current and future weather
 function getWeather(city) {
-    const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${apiKey}`;
+    const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=imperial&appid=${apiKey}`;
     
     fetch(apiUrl)
         .then(response => response.json())
@@ -56,7 +56,7 @@ function displayCurrentWeather(data) {
     
     currentWeatherInfo.innerHTML = `
         <h3>${city} (${date}) <img src="${iconUrl}" alt="Weather icon"></h3>
-        <p>Temperature: ${temp} °C</p>
+        <p>Temperature: ${temp} °F</p>
         <p>Humidity: ${humidity}%</p>
         <p>Wind Speed: ${windSpeed} m/s</p>
     `;
@@ -77,7 +77,7 @@ function displayForecast(data) {
         forecastDay.innerHTML = `
             <h4>${date}</h4>
             <img src="${iconUrl}" alt="Weather icon">
-            <p>Temp: ${temp} °C</p>
+            <p>Temp: ${temp} °F</p>
             <p>Humidity: ${humidity}%</p>
             <p>Wind: ${windSpeed} m/s</p>
         `;
