@@ -21,4 +21,37 @@ section {
     margin-bottom: 2rem;
 }
 
+#currentWeather, #forecast {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#forecastContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#forecastContainer .forecast-day {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    width: 18%;
+}
+
+#searchHistoryList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#searchHistoryList li {
+    background-color: white;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 

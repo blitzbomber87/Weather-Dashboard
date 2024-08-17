@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+//Event Listener for search form submit
 searchForm.addEventListener('submit', function(event) {
     event.preventDefault();
     const city = cityInput.value.trim();
@@ -25,6 +26,7 @@ searchForm.addEventListener('submit', function(event) {
     }
 });
 
+// Function to get current and future weather
 function getWeather(city) {
     const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${apiKey}`;
     
@@ -43,6 +45,7 @@ function getWeather(city) {
         });
 }
 
+//Function to display weather data
 function displayCurrentWeather(data) {
     const city = data.city.name;
     const date = new Date().toLocaleDateString();
